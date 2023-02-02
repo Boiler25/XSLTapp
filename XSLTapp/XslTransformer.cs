@@ -12,6 +12,7 @@ using System.Xml.Xsl;
 
 namespace XSLTapp
 {
+    //  Class to perform the xslt transformation
     public static class XslTransformer
     {
         public static void Transform(string xslFile, string xmlFile, string resultXmlFile)

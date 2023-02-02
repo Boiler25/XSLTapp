@@ -9,8 +9,10 @@ using XSLTapp.Model;
 
 namespace XSLTapp
 {
+    //  Class containing functions for working with XML files
     public static class XmlHelper
     {
+        //  Getting a list of groups from a Result.xml file
         public static ObservableCollection<Group> ConvertGroups(string XmlFile)
         {
             ObservableCollection<Group> groups = new ObservableCollection<Group>();
@@ -41,6 +43,7 @@ namespace XSLTapp
             return groups;
         }
 
+        //  Getting a list of items from a List.xml file
         public static ObservableCollection<Item> ConvertItems(string XmlFile)
         {
             ObservableCollection<Item> items = new ObservableCollection<Item>();
@@ -66,6 +69,7 @@ namespace XSLTapp
             return items;
         }
 
+        //  Adding a count attribute to each group in Result.xml file
         public static void UpdateGroupsXml(string XmlFile)
         {
             XDocument xdoc = XDocument.Load(XmlFile);
@@ -93,6 +97,7 @@ namespace XSLTapp
             }
         }
 
+        //  Adding a count attribute to list in List.xml file
         public static void UpdateListXml(string XmlFile)
         {
             XDocument xdoc = XDocument.Load(XmlFile);
@@ -118,6 +123,7 @@ namespace XSLTapp
             }
         }
 
+        //  Getting a list of items from Groups
         public static ObservableCollection<Item> GetItemsFromGroups(ObservableCollection<Group> groups)
         {
             ObservableCollection<Item> items = new ObservableCollection<Item>();
