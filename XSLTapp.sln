@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSLTapp", "XSLTapp\XSLTapp.csproj", "{5913FE42-C6AF-43F5-87D4-A0A45010B406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5913FE42-C6AF-43F5-87D4-A0A45010B406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5913FE42-C6AF-43F5-87D4-A0A45010B406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5913FE42-C6AF-43F5-87D4-A0A45010B406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5913FE42-C6AF-43F5-87D4-A0A45010B406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D704A047-01C5-4700-9C23-F38F3623AF7F}
+	EndGlobalSection
+EndGlobal
